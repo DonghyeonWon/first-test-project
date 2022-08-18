@@ -1,0 +1,18 @@
+.testBox {
+    position: relative;
+    width: 100%; height: 1500px;
+    background: lime;
+}
+
+.testSticky {
+    position: sticky;
+    top: 50px; left: 50%;
+    transform: translateX(-50%);
+    width: 500px; height: 200px;
+    background: linear-gradient(#4e5bdc, #601f86);
+}
+
+.outerBox {
+    width: 100%; height: 1500px;
+    background-color: orange;
+}
